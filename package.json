@@ -1,0 +1,15 @@
+{
+  "name": "koparka-swinoujscie",
+  "description": "Landing page for koparka-swinoujscie.pl",
+  "version": "0.1.0",
+  "keywords": ["css", "sass", "html", "responsive", "theme", "template"],
+  "author": "Adam Ramski <adamramski@gmail.com>",
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "jquery": "3.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.24.3",
+    "gulp": "^3.9.1"
+  }
+}

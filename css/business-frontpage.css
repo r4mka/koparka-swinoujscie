@@ -1,0 +1,77 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+/* body {
+  padding-top: 54px;
+} */
+
+/* @media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+} */
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.banner {
+  height: 20rem;
+  /* background: url("/img/DSC_0140.JPG") center center no-repeat scroll; */
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.1) 0,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    url(../img/DSC_0140.JPG) center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (max-width: 500px) {
+  .banner {
+    height: 15rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .banner {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner {
+    height: 30rem;
+  }
+}
+
+span {
+  color: rgb(228, 176, 62);
+}
+
+.card {
+  height: 100%;
+}
+
+#header {
+  background-color: #343a40 !important;
+  padding: 1rem 0;
+}
+
+#header h1 {
+  margin: 0;
+  color: white;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
